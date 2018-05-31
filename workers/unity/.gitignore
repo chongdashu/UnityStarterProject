@@ -1,18 +1,30 @@
-#Improbable Unity Ignores
+# Improbable Unity Ignores
 build.json
 .invoke.log
 zip_toolbelt.log
-Assets/Improbable
-Assets/Plugins/x86/Improbable
-Assets/Plugins/x86.meta
-Assets/Plugins/x86_64/Improbable
-Assets/Plugins/x86_64.meta
-Assets/Gamelogic/Generated/
-Assets/Gamelogic/Generated.meta
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp-firstpass.csproj
 Assembly-CSharp.csproj
 .spatialos
+external-default-unityclient.log
+
+# Improbable Unity Generated Ignores
+Plugins/Improbable/Editor/Generated/
+Plugins/Improbable/Editor/Generated.meta
+Plugins/Improbable/Generated/
+Plugins/Improbable/Generated.meta
+Plugins/Improbable/EntityPrefabs/
+Plugins/Improbable/EntityPrefabs.meta
+Plugins/Improbable/Sdk/Dll/Generated.Code.*
+Plugins/Improbable/EntityPrefabs/
+Plugins/Improbable/EntityPrefabs.meta
+
+# Improbable Unity SDK
+Improbable/
+Plugins/Improbable/.Modules
+Plugins/Improbable/.UnityPartials
+Plugins/Improbable/Core
+Plugins/Improbable/Sdk
 
 # Standard Unity Ignores
 /[Ll]ibrary/
