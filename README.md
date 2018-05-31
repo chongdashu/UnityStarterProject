@@ -19,7 +19,18 @@ It contains:
 
 If you run into problems, or want to give us feedback, please visit the [SpatialOS forums](https://forums.improbable.io/).
 
-## Running the project
+## Getting Started
+
+### Pre-requisites
+
+1. Clone of download a copy of the [SpatialOS Unity SDK](https://github.com/spatialos/UnitySDK/tree/v1.0.1).
+
+### Building the project
+
+2. Run `setup-unity-sdk.sh` and pass in the location of the Unity SDK (See Step 1 above) as the first argument.
+E.g., `./setup-unity-sdk.sh "D:\UnitySDK"`
+
+### Running the project
 
 To run the project locally, first build it by running `spatial worker build`, then start the server with `spatial local start`. You can connect a client by opening the Unity project and pressing the play button, or by running `spatial local worker launch UnityClient default`. See the [documentation](https://docs.improbable.io/reference/13.0/shared/deploy/deploy-local) for more details.
 
